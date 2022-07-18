@@ -1,79 +1,100 @@
 body{
-    margin: 0 auto;
+  margin: 0 auto;
 }
 /* header */
 #header{
-    background-color: black;
-    color: white;
-    padding: 10px;
-    display: flex;
+  background-color: black;
+  color: white;
+  /* padding: 10px; */
+  display: flex;
+  position: fixed;
+  
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 5rem;
 
 }
 #header h1{
-    flex-direction: row;
-    padding-left: 10px;
+  flex-direction: row;
+  padding-left: 10px;
+}
+#header h1 a{
+  text-decoration:none;
+  color: white;
 }
 #header nav{
-   margin-left: auto;
-   font-style: normal;
+  margin: 10px 10px 0 auto;
+  font-style: normal;
 }
 #header nav ul{
-    display: flex;
+  display: flex;
 }
 #header nav ul li{
-    padding: 10px;
-    list-style-type: none;
+  padding: 10px;
+  list-style-type: none;
 }
 
 #header nav ul li a{
-    text-decoration:none;
-    color: white;
+  text-decoration:none;
+  color: white;
 }
 
 /* container */
 .box{
-    width: 300px; 
-    height: 400px; 
-    padding: 20px 10px;
-    margin: 30px 30px;
-    background-color: skyblue;
-    border: 1px solid black;
-    text-align: center;
-    display: inline-block;
+  width: 300px; 
+  height: 400px; 
+  padding: 20px 10px;
+  margin: 30px 30px;
+  background-color: skyblue;
+  border: 1px solid black;
+  text-align: center;
+  display: inline-block;
 }
 .container{
-    /* margin: 0 auto; */
-    display: inline-block; /* 내부 요소에 인라인 블럭 설정 */
+  /* margin: 0 auto; */
+  display: inline-block; /* 내부 요소에 인라인 블럭 설정 */
     
     
 }
 #section{
-    text-align: center;   /* 가운데 정렬 */
+  text-align: center;   /* 가운데 정렬 */
+  margin-top:100px;
 }
 
 .inline-block-center {
-    text-align: center; /* inline요소만 적용됨 */
+  text-align: center; /* inline요소만 적용됨 */
 }
 .inline-block-center div {
-    display: inline-block; /* block요소인 div를 inline으로 만들어준다. */
-    width: 200px;
-    background-color: yellow;
-    padding: 30px;
-    text-align: left; /* 안의 내용 글자 정렬 */
+  display: inline-block; /* block요소인 div를 inline으로 만들어준다. */
+  width: 200px;
+  background-color: yellow;
+  padding: 30px;
+  text-align: left; /* 안의 내용 글자 정렬 */
 }
 
-/* footer */
-#footer{
-    background-color: gray;
-    position : absolute;
-    bottom : 0;
-    display:inline;
-    width: 100%;
-    float: none;
-    padding: 20px;
+#loginPage{
+  /* border: 1px solid black; */
+  padding: 20px;
+  position: relative;
+  width: 400px;
+  height: auto;
+  
+  margin-top: 20px;
 }
-#footer h1{
-    margin: 0 auto;
-    padding: auto;
-    text-align: center;
-}    
+#ex1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 300px;
+}
+#ex1 input {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 5px;
+  /* border-style: none; */
+}
+#ex1 #btn{
+  border: 1px solid ;
+  width: 214px;
+  padding: 5px;
+}

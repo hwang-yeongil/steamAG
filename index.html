@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <meta charset='utf-8'>
-     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-     <title>Page Title</title>
-     <meta name='viewport' content='width=device-width, initial-scale=1'>
-     <link rel="stylesheet" href="css/style.css">
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+  <script src='js/jquery-3.6.0.js'></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#header").load("header.html")
+    })
+    // $(document).ready(function(){
+    //   $("#footer").load("footer.html")
+    // })
+  </script>
 </head>
 <body>
-     <div id="header">
-          <h1>사이트</h1>
-          <nav>
-               <ul>
-                    <li>
-                         <a href="#">로그인</a>
-                    </li>
-                    <li>
-                         <a href="#">회원가입</a>
-                    </li>
-               </ul>
-          </nav>
-          
-     </div>      
-     <div id="section">
-          <div class="container">
-               <div class="box">
-                    <h1>아무거1</h1>
-               </div>
-               <div class="box">
-                    <h1>아무거2</h1>
-               </div>
-          </div>
-          <div class="inline-block-center">
-               <div> I'm an element that is block-like with my siblings and we're centered in a row. </div>
-               <div> I'm an element that is block-like with my siblings and we're centered in a row. I have more content in me than my siblings do. </div>
-          </div>
-     </div>
-     <div id="footer">
-          <h1>사이트 하단바</h1>
-          <p>abc</p>
-     </div>
+  <div id="header"></div>
+  <!-- <div id="header">
+    <h1>사이트</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="login.html">로그인</a>
+        </li>
+        <li>
+          <a href="#">회원가입</a>
+        </li>
+      </ul>
+    </nav>
+  
+  </div>       -->
+  
+  <div id="section">
+    <div class="container">
+      <div class="box">
+        <h1>아무거1</h1>
+      </div>
+      <div class="box">
+        <h1>아무거2</h1>
+      </div>
+    </div>
+      <!-- <div class="inline-block-center">
+            <div> I'm an element that is block-like with my siblings and we're centered in a row. </div>
+            <div> I'm an element that is block-like with my siblings and we're centered in a row. I have more content in me than my siblings do. </div>
+      </div> -->
+  </div>
 </body>
 </html>
