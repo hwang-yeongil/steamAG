@@ -1,3 +1,6 @@
+// const error_word = document.querySelector(".hidden");
+// if(document.querySelector("#ex1").)
+
 $(document).ready(function() {
   //$('#username').focus();
 
@@ -15,5 +18,8 @@ $(document).ready(function() {
       // else {
       //     $('.error').css('display', 'block'); // show error msg
       // }
+      else{
+        document.querySelector(".hidden").classList.remove("hidden");
+      }
   });
 });

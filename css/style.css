@@ -114,3 +114,7 @@ button {
     background: #369cb8;
   } */
 }
+
+.hidden{
+  display: none;
+}
