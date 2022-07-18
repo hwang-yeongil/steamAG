@@ -6,7 +6,8 @@
      <title>Page Title</title>
      <meta name='viewport' content='width=device-width, initial-scale=1'>
      <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
-     <script src='js/jquery-3.6.0.js'></script>
+     <script src='js/jquery-3.6.0.js'></script>\
+     <script src="js/sign.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
@@ -24,12 +25,15 @@
       </ul>
     </nav>
     <div id="ex1" class="modal">
-      <input type="text" id="id" placeholder="아이디" class="loginblock">
-          <input type="password" id="pwd" placeholder="비밀번호" class="loginblock" autocomplete="off">
-          <button id="btn" type="submit" class="loginblock">로그인</button>
-      <!-- <a href="#" rel="modal:close">Close</a> -->
+      <h2>Login To Your Account</h2>
+      <!-- <p class="valid">Valid. Please wait a moment.</p>
+      <p class="error">Error. Please enter correct Username &amp; password.</p> -->
+      <form class="loginbox" autocomplete="off">
+        <input placeholder="Username" type="text" id="username"></input>
+        <input placeholder="Password" type="password" id="password"></input>
+        <button id="submit">Login</button>
+      </form>
     </div>
-    
   </div>      
 </body>
 </html>

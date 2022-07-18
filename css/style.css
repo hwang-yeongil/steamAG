@@ -73,28 +73,44 @@ body{
   text-align: left; /* 안의 내용 글자 정렬 */
 }
 
-#loginPage{
-  /* border: 1px solid black; */
-  padding: 20px;
-  position: relative;
-  width: 400px;
-  height: auto;
-  
-  margin-top: 20px;
+h2 {
+  margin: 0 0 20px;
+  line-height: 1;
+  color: rgb(68, 68, 68);
+  font-size: 18px;
+  font-weight: 400;
 }
-#ex1{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  height: 300px;
+input {
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  color: #ccc;
+  font-family: "Roboto";
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.2s linear;
+  /* &input:focus {
+    color: #333;
+    border: 1px solid #44c4e7;
+  } */
 }
-#ex1 input {
-  width: 200px;
-  padding: 5px;
-  margin-bottom: 5px;
-  /* border-style: none; */
-}
-#ex1 #btn{
-  border: 1px solid ;
-  width: 214px;
-  padding: 5px;
+button {
+  cursor: pointer;
+  background: rgb(68, 68, 68);
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  /* &:hover {
+    background: #369cb8;
+  } */
 }
